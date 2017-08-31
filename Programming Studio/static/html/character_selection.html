@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/static/css/character_selection.css">
+        <body>
+            <img class="character_title" src="/static/interface_elements/character_selection/character_selection_button.png">	
+        	
+        	<button class="back_button" onclick="ws.send('Return:' + player_name);"></button>
+        	<button class="start_button" onclick="ContinueScreen()"></button>
+        		
+        	<button class="survivor_button" onclick="current_class_choice = 'survivor';"></button>
+        	<button class="scout_button" onclick="current_class_choice = 'scout';"></button>
+        	<button class="prospector_button" onclick="current_class_choice = 'prospector';"></button>
+        	<button class="hunter_button" onclick="current_class_choice = 'hunter';"></button>	
+        </body>
+        <script type="text/javascript" src="/static/js/universal.js"></script>
+        <script type="text/javascript" src="/static/js/pages/character_selection.js"></script>
+    </head>
+</html>

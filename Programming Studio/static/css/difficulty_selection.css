@@ -1,0 +1,162 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/difficulty_selection.css                               */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.difficulty_title {
+	width: 45%;
+	height: 20%;
+	top: 2%;
+	left: 27.5%;
+}
+
+.back_button {
+    background: url("/static/interface_elements/difficulty_selection/back.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.back_button:hover {
+    background: url("/static/interface_elements/difficulty_selection/back_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.next_button {
+    background: url("/static/interface_elements/difficulty_selection/next.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 82.5%;
+}
+
+.next_button:hover {
+    background: url("/static/interface_elements/difficulty_selection/next_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 82.5%;
+}
+
+.wuss_button {
+    background: url("/static/interface_elements/difficulty_selection/wuss.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 10.3%;
+    top: 30%;
+    left: 15%;
+}
+
+.wuss_button:hover {
+    background: url("/static/interface_elements/difficulty_selection/wuss_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 10.3%;
+    top: 30%;
+    left: 15%;
+}
+
+.wuss_button:focus {
+    background: url("/static/interface_elements/difficulty_selection/wuss_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 10.3%;
+    top: 30%;
+    left: 15%;
+}
+
+.explorer_button {
+    background: url("/static/interface_elements/difficulty_selection/explorer.png") no-repeat;
+    background-size: 110%;
+    cursor: pointer;
+    width: 35%;
+    height: 14.35%;
+    top: 45%;
+    left: 15%;
+}
+
+.explorer_button:hover {
+    background: url("/static/interface_elements/difficulty_selection/explorer_hover.png") no-repeat;
+    background-size: 110%;
+    cursor: pointer;
+    width: 35%;
+    height: 14.35%;
+    top: 45%;
+    left: 15%;
+}
+
+.explorer_button:focus {
+    background: url("/static/interface_elements/difficulty_selection/explorer_active.png") no-repeat;
+    background-size: 110%;
+    cursor: pointer;
+    width: 35%;
+    height: 14.35%;
+    top: 45%;
+    left: 15%;
+}
+
+.vlad_button {
+    background: url("/static/interface_elements/difficulty_selection/vlad_tepes.png") no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+    width: 65.25%;
+    height: 14.35%;
+    top: 60%;
+    left: 15%;
+}
+
+.vlad_button:hover {
+    background: url("/static/interface_elements/difficulty_selection/vlad_tepes_hover.png") no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+    width: 65.25%;
+    height: 14.35%;
+    top: 60%;
+    left: 15%;
+}
+
+.vlad_button:focus {
+    background: url("/static/interface_elements/difficulty_selection/vlad_tepes_active.png") no-repeat;
+    background-size: 90%;
+    cursor: pointer;
+    width: 65.25%;
+    height: 14.35%;
+    top: 60%;
+    left: 15%;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <script type="text/javascript">
+        var ready_to_play = false;
+    </script>
+    <head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/static/css/easy_game.css">
+    	<body>
+            <img class="game_screen" src="/static/interface_elements/easy/game_map_v2.png">
+
+            <div class="chat_out_box" id="chat_out_box"></div>
+            <button class="ability_button" id="ability_button" onclick="if(ready_to_play) { ScoutActive(); }"></button>
+            <button class="ability_cancel" id="ability_cancel" onclick="if(ready_to_play) { CancelActive(); }"></button>
+            <button class="fire_button" id="fire_button" onclick ="if(ready_to_play) { FireActive(); }"></button>
+            <button class="fire_cancel" id="fire_cancel" onclick ="if(ready_to_play) { CancelFire(); }"></button>
+            <input class="chat_in_box" type="text" id="chat_in_box" onkeypress="if(ready_to_play) { return searchKeyPress(event); }" />
+            
+            <!--<button class="commit_button" id="commit_button" onclick="if(ready_to_play) { CommitMove(); }"></button>-->
+            <!--<button class="pick_up_button" id="pick_up_button" onclick="if(ready_to_play) {PickUp(); }"></button>-->
+            <input type="button" id="chat_in_box_button" style="display: none;" onclick="if(ready_to_play) { SendMessage(); }" />
+            
+
+        </body>
+        <script>
+            function searchKeyPress(e)
+            {
+                e = e || window.event;
+                if (e.keyCode == 13)
+                {
+                    document.getElementById('chat_in_box_button').click();
+                    return false;
+                }
+                return true;
+            }
+        </script>
+        <script "text/javascript" src="/static/js/universal.js"></script>
+        <script type="text/javascript" src="static/js/pages/easy_game.js"></script>
+    </head>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/static/css/host_a_game.css">
+        <style>
+            input[type='text'] { font-size: 18px;}
+        </style>
+        <body>
+            <img class="host_a_game_button" src="/static/interface_elements/host_a_game/host_a_game_button.png">
+            <img class="game_name" src="/static/interface_elements/host_a_game/game_name.png">
+            <img class="mode" src="/static/interface_elements/host_a_game/mode.png">
+            
+            <input class="game_name_input" type="text" id="game_name" onfocus="this.game_name=''; this.style.color ='white'">
+            
+            <button class="collaborative_button" onclick="current_mode_choice = 'collaborative';"></button>
+            <button class="player_vs_player_button" onclick="current_mode_choice = 'pvp';"></button>
+            <button class="back_button" onclick="ws.send('CleanUp:' + player_name);"></button>
+            <button class="host_button" onclick="VerifyGameName()"></button>
+        </body>
+        <script type = "text/javascript" src="/static/js/universal.js"></script>
+        <script type = "text/javascript" src="/static/js/pages/host.js"></script>
+    </head>
+</html>

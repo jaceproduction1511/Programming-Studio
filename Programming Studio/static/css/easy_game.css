@@ -1,0 +1,304 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/easy_game.css                                          */
+/* ------------------------------------------------------------------------- */
+
+
+/* Main Game Components */
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.game_screen {
+    width: 100%;
+    height: 100%;
+    top: 2.125%;
+    left: -0.5%;
+}
+
+.game_board {
+    cursor: pointer;
+    width: 50%;
+    height: 50%;
+    top: 2.75%;
+    left: 15%;
+}
+
+.player_1 {
+    cursor: pointer;
+    width: 6%;
+    height: 6%;
+    top: 3.75%;
+    left: 14.25%;
+}
+
+.player_2 {
+    cursor: pointer;
+    width: 6%;
+    height: 6%;
+    top: 3.75%;
+    left: 14.25%;
+}
+
+.chat_out_box {
+    background: transparent;
+    background-size: 100%;
+    cursor: pointer;
+    height: 24%;
+    width: 24.3%;
+    top: 45%;
+    left: 73%;
+    overflow:auto;
+    color: white;
+    word-wrap: break-word;
+}
+
+.chat_in_box {
+    background: transparent;
+    background-size: 100%;
+    padding-left: 4px;
+    width: 24%;
+    height: 5.9%;
+    top: 70%;
+    left: 73%;
+    overflow:auto;
+    color: white;
+    word-wrap: break-word;
+    font-size: 1vw;
+}
+
+.ability_button {
+    background: url("/static/interface_elements/easy/scout.png") no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 6%;
+    top: 88.73%;
+    left: 87%;
+}
+
+.ability_button:hover {
+    background: url("/static/interface_elements/easy/scout_hover.png") no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 6%;
+    top: 88.73%;
+    left: 87%;
+}
+
+.ability_cancel {
+    background: url("/static/interface_elements/easy/cancel.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 3.5%;
+    height: 6%;
+    top: 89.1%;
+    left: 93.5%;
+}
+
+.ability_cancel:hover {
+    background: url("/static/interface_elements/easy/cancel_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 3.5%;
+    height: 6%;
+    top: 89.1%;
+    left: 93.5%;
+}
+
+.fire_button {
+    background: url("/static/interface_elements/easy/fire_button.png") no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 6%;
+    top: 78.73%;
+    left: 87%;
+}
+
+.fire_button:hover {
+    background: url("/static/interface_elements/easy/fire_hover.png") no-repeat;
+    background-size: 80%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 6%;
+    top: 78.73%;
+    left: 87%;
+}
+
+.fire_cancel {
+    background: url("/static/interface_elements/easy/cancel.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 3.5%;
+    height: 6%;
+    top: 79.1%;
+    left: 93.5%;
+}
+
+.fire_cancel:hover {
+    background: url("/static/interface_elements/easy/cancel_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 3.5%;
+    height: 6%;
+    top: 79.1%;
+    left: 93.5%;
+}
+
+/* Miscellaneous Buttons & Indicators */
+.commit_button {
+    background: url("/static/interface_elements/easy/commit.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 88%;
+    left: 45.5%;
+}
+
+.commit_button:hover {
+    background: url("/static/interface_elements/easy/commit_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 88%;
+    left: 45.5%;
+}
+
+.commit_button:focus {
+    background: url("/static/interface_elements/easy/commit_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 88%;
+    left: 45.5%;
+}
+
+.commit_button:active {
+    background: url("/static/interface_elements/easy/commit_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 88%;
+    left: 45.5%;
+}
+
+.pick_up_button {
+    background: url("/static/interface_elements/easy/pick_up.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 78%;
+    left: 45.5%;
+}
+
+.pick_up_button:hover {
+    background: url("/static/interface_elements/easy/pick_up_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 78%;
+    left: 45.5%;
+}
+
+.pick_up_button:focus {
+    background: url("/static/interface_elements/easy/pick_up_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 78%;
+    left: 45.5%;
+}
+
+.pick_up_button:active {
+    background: url("/static/interface_elements/easy/pick_up_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 7.5%;
+    height: 7.1%;
+    top: 78%;
+    left: 45.5%;
+}
+
+.arrows_box {
+    background: transparent;
+    background-size: 100%;
+    cursor :pointer;
+    height: 6.9%;
+    width: 1.5%;
+    left: 77.6%; 
+    top: 80.5%;
+    font:16px/26px Georgia, Garamond, Serif;
+    color: white;
+    padding-left: 2px;
+}
+
+.lives_box {
+    background: transparent;
+    background-size: 100%;
+    cursor :pointer;
+    height: 6.9%;
+    width: 9.5%;
+    left: 77.6%;
+    top: 91%;
+    font:16px/26px Georgia, Garamond, Serif;
+    color: white;
+    padding-left: 2px;
+}
+
+.ability_box {
+    background: transparent;
+    background-size: 100%;
+    cursor :pointer;
+    height: 1%;
+    width: 1%;
+    left: 85.5%;
+    top: 90.5%;
+    font:16px/26px Georgia, Garamond, Serif;
+    color: white;
+    padding-left: 2px;
+}
+
+.notifications {
+    background: transparent;
+    background-size: 100%;
+    cursor :pointer;
+    height: 21.5%;
+    width: 24%;
+    left: 73%;
+    top: 14.5%;
+    font:16px/26px Georgia, Garamond, Serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    color: white;
+    word-wrap: break-word;
+    padding-left: 2px;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+}

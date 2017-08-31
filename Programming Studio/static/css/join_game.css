@@ -1,0 +1,115 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/join_game.css                                          */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.join_title {
+	width:42%;
+	height:20%;
+	top:1%;
+	left:30%;
+}
+
+.join_main {
+	width:59.25%;
+	height:59.5%;
+	top:21%;
+	left:20.75%;
+}
+
+.back_button {
+    background:url("/static/interface_elements/join_a_game/back_button.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 30%;
+    height: 15%;
+    top: 79%;
+    left: 20.75%;
+}
+
+.back_button:hover {
+    background: url("/static/interface_elements/join_a_game/back_button_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 30%;
+    height: 15%;
+    top: 79%;
+    left: 20.75%;
+}
+
+.join_button {
+    background:url("/static/interface_elements/join_a_game/join_button.png") no-repeat;
+    background-size: 100%;
+    cursor:pointer;
+    width: 30%;
+    height: 15%;
+    top: 78.9%;
+    left: 50%;
+}
+
+.join_button:hover {
+    background: url("/static/interface_elements/join_a_game/join_button_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 30%;
+    height: 15%;
+    top: 78.9%;
+    left: 50%;
+}
+
+.refresh_button {
+    background:url("/static/interface_elements/join_a_game/refresh.png") no-repeat;
+    background-size:100%;
+    cursor:pointer;
+    width: 7.5%;
+    height: 9.3%;
+    top: 21.25%;
+    left: 72.45%;
+}
+
+.refresh_button:hover {
+    background:url("/static/interface_elements/join_a_game/refresh_hover.png") no-repeat;
+    background-size:100%;
+    cursor:pointer;
+    width: 7.5%;
+    height: 9.3%;
+    top: 21.25%;
+    left: 72.5%;
+}
+
+.mode_name {
+    color: white;
+    top: 30%;
+    left: 45%;
+    font-size: 8px;
+    font-size: 1.2vw;
+}
+
+.diff_name {
+    color: white;
+    top: 30%;
+    left: 60%;
+    font-size: 8px;
+    font-size: 1.2vw;
+}

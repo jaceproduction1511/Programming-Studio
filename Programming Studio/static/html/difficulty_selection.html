@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/static/css/difficulty_selection.css">
+        <body>
+            <img class="difficulty_title" src="/static/interface_elements/difficulty_selection/select_difficulty_button.png">
+
+            <button class="back_button" onclick="ws.send('CleanUp:' + player_name)"></button>
+            <button class="next_button" onclick="RecordDifficulty()"></button>
+            <button class="wuss_button" onclick="entered_difficulty = 'easy';"></button>
+            <button class="explorer_button" onclick="entered_difficulty = 'medium'"></button>
+            <button class="vlad_button" onclick="entered_difficulty = 'hard'"></button>
+        </body>
+        <script type="text/javascript" src="/static/js/universal.js"></script>
+        <script type="text/javascript" src="/static/js/pages/difficulty_selection.js"></script>
+    </head>
+</html>

@@ -1,0 +1,238 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/help.css                                               */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+	margin-bottom: 50px;
+}
+
+/* 
+--------------------------functionality---------------------------------
+*/
+
+
+
+.back_button {
+    background: url("/static/interface_elements/help/back_1.png") no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+	margin-left: 10px;
+    position: absolute;
+}
+
+.back_button:hover {
+    background: url("/static/interface_elements/help/back_3.png") no-repeat;
+    background-size: 100%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+	margin-left: 10px;
+    position: absolute;
+}
+
+/* 
+---------------------------general formatting--------------------------------
+*/
+
+div {
+	text-align: left;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+img {
+	margin-top: 40px;
+}
+
+h2 {
+	font-family: "Times New Roman", Times, serif;
+	color: #cc6600; /* orange */
+	
+	text-align: center;
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 22px;
+	color: #ffcc00; /* burnt yellow */
+	
+	text-align: justify;
+}
+
+u {
+	color: #ffff99; /*off-white-yellow */
+	line-height: inherit;
+}
+
+b {
+	color: orange;
+}
+
+ul {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 21px;
+	color: inherit;
+	
+	text-align: justify;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+li {
+	font-family: "Times New Roman", Times, serif;
+	/*font-size: 1.3em;*/
+	color: inherit;
+	
+	text-align: justify;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-bottom: 10px;
+}
+
+hr {
+	margin-top: 128px;
+	color: #30b0dc;
+	width: 50%;
+}
+
+footer {
+	color: #30b0dc; /* light blue */
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+	line-height: 25px;
+}
+
+/* 
+	"div.section" is being used so that I can somewhat standardize the formatting 
+	of large sections of text.
+*/
+
+div.section {
+	text-align: justify;
+	margin-left: 22%;
+	margin-right: 22%;
+}
+
+div.footer {
+	color: inherit;
+	text-align: center;
+	font-size: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 100px;
+	line-height: inherit;
+}
+
+/* 
+----------------------------specific element formatting-------------------------------
+*/
+
+sup.tm {
+	font-size: 10px;
+}
+
+u.about {
+	color: inherit;
+}
+
+img.basic{
+	margin: 0 auto;
+	display: block;
+}
+
+img.player {
+	margin: 0 auto;
+	display: block;
+}
+
+img.map_snippet {
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+    height: auto;
+}
+
+img.movement{
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+    height: auto;
+}
+
+img.move_selection {
+	margin: 0 auto;
+	display: block;
+}
+
+/* img.items {
+	margin: 0 auto;
+	display: block;
+} */
+
+img.gold {
+	margin: 0 auto;
+	display: block;
+}
+
+img.life_potion {
+	margin: 0 auto;
+	display: block;
+}
+
+img.ability_potion {
+	margin: 0 auto;
+	display: block;
+}
+
+img.arrow {
+	margin: 0 auto;
+	display: block;
+}
+
+/* img.arrows {
+	margin: 0 auto;
+	display: block;
+} */
+
+img.item_selection {
+	margin: 0 auto;
+	display: block;
+}
+
+img.arrow_selection {
+	margin: 0 auto;
+	display: block;
+	width: 50%;
+    height: auto;
+}
+
+/* img.game_modes {
+	margin: 0 auto;
+	display: block;
+} */

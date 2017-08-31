@@ -1,0 +1,80 @@
+
+[RECEIVED]: ValidateName:sdfjasg
+[SENT]: Success
+[RECIEVED]: Request
+[RECEIVED]: ValidateName:jkl
+[SENT]: Success
+[RECIEVED]: Hello World!
+[SENT]: Programmer oops
+[RECIEVED]: ValidateGameName:
+[SENT]: ValidationFailure
+[RECIEVED]: ValidateGameName:jkl
+[SENT]: ValidationSuccess
+[RECIEVED]: SetupGame:jkl:collaborative:jkl
+[SENT]: SetupSuccessful
+[RECIEVED]: Difficulty:jkl:easy
+[SENT]: DifficultySet
+[RECIEVED]: SetCharacter:jkl:prospector
+[SENT]: CharacterSet
+[RECIEVED]: GameStart:jkl
+[RECIEVED]: Request
+[SENT]: Game:jkl;Mode:collaborative;Difficulty:easy
+[RECIEVED]: Join:sdfjasg:jkl
+[SENT]: JoinSuccessful
+[RECIEVED]: SetCharacter:sdfjasg:hunter
+[SENT]: CharacterSet
+[RECIEVED]: GameStart:sdfjasg
+[SENT]: to jkl: Joined:sdfjasg
+[SENT]: to sdfjasg: Joined:jkl
+[SENT]: to jkl: InitialLocation:6,5
+[SENT]: to jkl: Percepts:6,5,empty,
+[SENT]: to sdfjasg: InitialLocation:6,8
+[SENT]: to sdfjasg: Percepts:6,8,empty,
+[RECIEVED]: GetArrowsCount:sdfjasg
+[SENT]: 2
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3
+[RECIEVED]: GetPerceptions:sdfjasg
+[SENT]: SetPerceptions:6,8,empty,
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3
+[RECIEVED]: GetArrowsCount:jkl
+[SENT]: 1
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 3
+[RECIEVED]: GetPerceptions:jkl
+[SENT]: SetPerceptions:6,5,empty,
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 3
+[RECIEVED]: FireArrow:sdfjasg:up
+[SENT]: to jkl: Notification:You hear the Curse of a young Padawan.
+[SENT]: to sdfjasg: Notification:You hear the Curse of a young Padawan.
+[SENT]: You hear the Curse of a young Padawan.
+[RECIEVED]: GetArrowsCount:sdfjasg
+[SENT]: 1
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 2
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 2
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 2
+[RECIEVED]: FireArrow:sdfjasg:up
+[SENT]: to jkl: Notification:You hear the Curse of a young Padawan.
+[SENT]: to sdfjasg: Notification:You hear the Curse of a young Padawan.
+[SENT]: You hear the Curse of a young Padawan.
+[RECIEVED]: GetArrowsCount:sdfjasg
+[SENT]: 0
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 1
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 1
+[RECIEVED]: GetLivesCount:jkl
+[SENT]: 1
+[RECIEVED]: GetLivesCount:sdfjasg
+[SENT]: 3

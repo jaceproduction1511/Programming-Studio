@@ -1,0 +1,164 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/host_a_game.css                                        */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.host_a_game_button {
+    width: 45%;
+    height: auto;
+    top: 2%;
+    left: 30%;
+}
+
+.game_name {
+    width: 40%;
+    height: auto;
+    top: 20%;
+    left: 5%;
+}
+
+.game_name_input {
+    background: url("/static/interface_elements/host_a_game/game_name_box.png") no-repeat;
+    background-size: 100%;
+    padding-left: 35px;
+    width: 37%;
+    height: 9%;
+    top: 35%;
+    left: 5%;
+}
+
+.mode {
+    width: 15%;
+    height: auto;
+    top: 48%;
+    left: 5%;
+}
+
+.collaborative_button {
+    background: url("/static/interface_elements/host_a_game/collaborative.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 22%;
+    height: 16.5%;
+    top: 60%;
+    left: 5%;
+}
+
+.collaborative_button:hover {
+    background: url("/static/interface_elements/host_a_game/collaborative_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 22%;
+    height: 16.5%;
+    top: 60%;
+    left: 5%;
+}
+
+.collaborative_button:focus {
+    background: url("/static/interface_elements/host_a_game/collaborative_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 22%;
+    height: 16.5%;
+    top: 60%;
+    left: 5%;
+}
+
+.player_vs_player_button {
+    background: url("/static/interface_elements/host_a_game/player_vs_player.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 16.5%;
+    top: 60%;
+    left: 28%;
+}
+
+.player_vs_player_button:hover {
+    background: url("/static/interface_elements/host_a_game/player_vs_player_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 16.5%;
+    top: 60%;
+    left: 28%;
+}
+
+.player_vs_player_button:focus {
+    background: url("/static/interface_elements/host_a_game/player_vs_player_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 28%;
+    height: 16.5%;
+    top: 60%;
+    left: 28%;
+}
+
+.back_button {
+    background: url("/static/interface_elements/host_a_game/back.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.back_button:hover {
+    background: url("/static/interface_elements/host_a_game/back_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.host_button {
+    background: url("/static/interface_elements/host_a_game/host.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 14%;
+    height: 12%;
+    top: 80%;
+    right: 3%;
+}
+
+.host_button:hover {
+    background: url("/static/interface_elements/host_a_game/host_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 14%;
+    height: 12%;
+    top: 80%;
+    right: 3%;
+}
+
+.invalid_game_name {
+    color: red;
+    top: 35%;
+    left: 40%;
+    font-size: 8px;
+    font-size: 1.4vw;
+}

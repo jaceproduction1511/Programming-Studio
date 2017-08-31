@@ -1,0 +1,51 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/victory.css                                            */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+}
+
+.victory {
+	width:45%;
+	height:27%;
+	top:15%;
+	left:27.5%;
+    position:fixed;
+}
+
+.trump {
+    width:25%;
+    height:2%;
+    top:45%;
+    left:37.5%;
+    position:fixed;
+}
+
+.main_menu_button {
+    background:url("/static/interface_elements/victory/main_menu_button.png") no-repeat;
+	background-size: 100%;
+    cursor:pointer;
+    width: 15%;
+    height: 15%;
+    position: fixed;
+    top: 79%;
+    left: 20.75%;
+}

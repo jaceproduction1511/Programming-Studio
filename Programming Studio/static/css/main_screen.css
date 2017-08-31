@@ -1,0 +1,127 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/js/pages/main_screen.css                                   */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.lair_crushers_2 {
+    width: 40%;
+    height: auto;
+    top: 2%;
+    left: 1.5%;
+}
+
+.the_wumpus_strikes_back {
+    width: 60%;
+    height: auto;
+    top: 14%;
+    left: 1.5%;
+}
+
+
+.enter_your_name {
+    width: 35%;
+    height: auto;
+    top: 33%;
+    left: 32.5%;
+}
+
+.help {
+    background: url("/static/interface_elements/main_screen/help.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 10%;
+    height: 12%;
+    top: 50%;
+    left: 75%;
+}
+
+.help:hover {
+    background: url("/static/interface_elements/main_screen/help_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 10%;
+    height: 12%;
+    top: 50%;
+    left: 75%;
+}
+
+.enter_name_box {
+    background: url("/static/interface_elements/main_screen/enter_name_box.png") no-repeat;
+    background-size: 100%;
+    padding-left: 33px;
+    padding-right: 33px;
+    height: 11%;
+    width: 21%;
+    top: 60%;
+    left: 37%;
+}
+
+.host_a_game {
+    background: url("/static/interface_elements/main_screen/host_a_new_game.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 43%;
+    height: 20%;
+    top: 79%;
+    left: 1.5%;
+}
+
+.host_a_game:hover {
+    background: url("/static/interface_elements/main_screen/host_a_new_game_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 43%;
+    height: 20%;
+    top: 79%;
+    left: 1.5%;
+}
+
+
+.join_a_game {
+    background: url("/static/interface_elements/main_screen/join_existing_game.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42%;
+    height: 20%;
+    top: 79%;
+    right: 1.5%;
+}
+
+.join_a_game:hover {
+    background: url("/static/interface_elements/main_screen/join_existing_game_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42%;
+    height: 20%;
+    top: 79%;
+    right: 1.5%;
+}
+
+.invalid_name {
+    color: red;
+    top: 70%;
+    left: 37%;
+    font-size: 8px;
+    font-size: 1.4vw;
+}

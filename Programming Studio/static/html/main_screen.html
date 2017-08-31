@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            input[type='text'] { font-size: 18px;}
+        </style>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+        <link rel="stylesheet" type="text/css" href="/static/css/main_screen.css">
+        <body>
+            <img class="lair_crushers_2" src="/static/interface_elements/main_screen/lair_crushers_2.png">
+            <img class="the_wumpus_strikes_back" src="/static/interface_elements/main_screen/the_wumpus_strikes_back.png">
+            <img class="enter_your_name" src="/static/interface_elements/main_screen/enter_name_text.png">
+            
+            <input class="enter_name_box" type="text" id="host_name" onfocus="this.name=''; this.style.color ='white'"><br>
+
+            <button class="help" onclick="location.href='/help'"></button>
+            <button class="host_a_game" onclick="VerifyName('host')"></button>
+            <button class="join_a_game" onclick="VerifyName('join')"></button>
+        </body>
+    <script type="text/javascript" src="/static/js/universal.js"></script>
+    <script type="text/javascript" src="/static/js/pages/main_screen.js"></script>
+    </head>
+</html>

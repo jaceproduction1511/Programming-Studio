@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+	<script type="text/javascript" src="/static/js/universal.js"></script>
+	<script type="text/javascript">
+	    Preload(
+			"/static/interface_elements/help/back_3.png"
+	    );
+	</script>
+	<head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+    	<link rel="stylesheet" type="text/css" href="/static/css/help.css">
+    </head>
+    <body background="/static/interface_elements/universal/background.jpg" text=#ffcc00>
+	
+		<!-- Back Button -->
+		<button class="back_button" onclick="location.href='/'"></button>
+		
+		<!-- Basic -->
+		<div><img class="basic" src="/static/interface_elements/help/basic.png"></div>
+		<div class="section">
+		
+		<h2>Welcome, Adventurer!</h2>
+		
+		<p>The world you are about to explore contains mystery, danger, and rich rewards
+		for those who can successfully navigate it's labyrinth. This page will serve 
+		as your guide to avoid the multitude of perils that await you. </p>
+		
+		<p>You are about to enter the lair of the <i><b>Wumpus<sup class = "tm">TM</sup></b></i>. 
+		This foul smelling beast has hidden a great treasure of <i>shiny, klinky, gold</i> 
+		somewhere in the cave. You are tasked with the objective of delving into this 
+		dangerous Lair, collecting the gold, and reaching the Exit Door with your 
+		prize. <i>Alive</i></p>
+		
+		<h2>This is you:</h2>
+		
+		<p><img class="player" src="/static/interface_elements/universal/player_sprite.png"><br>
+		At the beginning of the match you will be placed at a random location in the 
+		Wumpus's lair. The Lair consists of many tiles, or rooms arranged into a 
+		rectangular grid. </p>
+		
+		<h2>The map:</h2>
+		
+		<p><img class="map_snippet" src="/static/interface_elements/help/map_snippet.png"><br>
+		At most locations on the map, you may move to the position above, below, left, 
+		or right of you as long as that move wouldn't take you off of the map. </p>
+		
+		<p>Additionally, there is a <i>"Fog of War"</i> covering the map, meaning that (in most 
+		cases) a tile/room must be visited before its contents are revealed and 
+		displayed on the map.</p>
+		
+		<h2>The environment possesses several important features that you should be aware of:</h2>
+		
+		<p><ul>
+			<li><b>Pits:</b><img src="/static/interface_elements/universal/pit_sprite.png"><br>
+			Some rooms have had great sinkholes open up underneath them. Entering a room containing 
+			one of these pits causes you to slip and fall down to your death.<br> <u>You will feel a 
+			Cool Breeze (<img src="/static/interface_elements/help/breeze.png">) if you are in a
+			tile/room that is adjacent to a pit.</u></li>
+			
+			<li><b>Wumpus:</b><img src="/static/interface_elements/universal/wumpus_sprite.png"><br>A 
+			horrible smelly monster that occupies this Lair. The Wumpus is absolutely lethal and will 
+			immediately eat anyone unfortunate enough to occupy the same room. <br><u>You will smell a 
+			Horrible Stench (<img src="/static/interface_elements/help/smell.png">) if you are in 
+			a tile/room that is adjacent to a Wumpus.</u></li>
+				<ul>
+					<li> The Wumpus can be killed using an Arrow (Arrow usage is described 
+					later in this help screen)</li>
+					
+					<li><u>Additionally, when a Wumpus is killed, all Players will hear a blood curdling 
+					noise resonate throughout the Chamber</u></li>
+				</ul>
+			
+			<li><b>Gold:</b><img src="/static/interface_elements/universal/gold_sprite.png"><br>The great 
+			treasure, hoarded by the Wumpus. It is hidden away in one of the rooms somewhere in the Lair.<br><u>
+			You will see the Glitter of Gold (<img src="/static/interface_elements/help/glitter.png">) if 
+			you are in the same tile/room with the gold.</u></li>
+		</ul>
+		</p>
+		</div>
+		
+		<!-- Movement -->
+		<div><img class="movement" src="/static/interface_elements/help/movement.png"></div>
+		<div class="section"><br>
+		
+		<p>Movement in this game works in a turn based manner. You can select a direction to move in the 
+		next turn by clicking on the arrows next to your player character. <u>When both players have selected 
+		a move, the turn will execute.</u></p>
+		</div>
+		
+		<!-- Items -->
+		<div><img class="items" src="/static/interface_elements/help/items.png"></div>
+		<div class="section"><br>
+		
+		<p>There are numerous items that can be found on the map and each is used for a 
+		different purpose. Items are placed around the map randomly at the beginning of 
+		the game and, additionally, may be spawned via random events in all difficulty 
+		levels.</p>
+		
+		<p><img class="gold" src="/static/interface_elements/universal/gold_sprite.png"><br><b>Gold:</b> 
+		This is Gold. The prize! <u>Your Gold will be dropped on the ground in a random loaction if you die while 
+		possessing it.</u></p>
+		
+		<p><img class="life_potion" src="/static/interface_elements/universal/life_potion_sprite.png"><br> 
+		<b>Life Potion:</b>This rare item will grant you an extra life! It is definitely 
+		your lucky day if you find one!</p>
+		
+		<p><img class="ability_potion" src="/static/interface_elements/universal/ability_potion_sprite.png"><br> 
+		<b>Ability Potion:</b>This item grants an extra use of your ability (this only 
+		applies to the Scout, adding an extra usage of his reveal ability.)</p>
+		
+		<p><img class="arrow" src="/static/interface_elements/universal/arrow_sprite.png"><br><b>Arrow:</b> 
+		An Arrow! (Arrows are explained more fully in the following section)</p>
+		
+		<!---<p><img class="item_selection" src="/static/interface_elements/help/item_selection.png"><br> -->
+		<p>Items can be picked up by clicking on the square you are currently occupying. you will then pick up 
+		everything in that tile. </p>
+		
+		</div>
+		
+		<!-- Arrows -->
+		<div><img class="arrows" src="/static/interface_elements/help/arrows.png"></div>
+		<div class="section"><br>
+		
+		<p>Most class types are given 1 arrow at the beginning of the match. (With the 
+		notable exception of the Hunter class, who is given 2)</p>
+		
+		<p><img class="arrow_selection" src="/static/interface_elements/help/arrow_selection.png"></p>
+		
+		<p>Using an arrow works similarly to movement. A notable difference being that <u>
+		arrows are fired instantaneously</u> rather than after the turn executes.</p>
+		<p>Arrows will travel until they kill something or encounter the edge of the map. 
+		If an arrow encouters the edge of the map It will drop onto the ground at that 
+		location and can be picked up like any other item.</p>
+		
+		</div>
+		
+		<!-- Game Modes -->
+		<div><img class="game_modes" src="/static/interface_elements/help/game_modes.png"></div>
+		<div class="section"><br>
+		
+		<h2>There are two game modes to choose from:</h2>
+		<p>
+		<ul>
+			<li>
+			<b>Competitive/Player vs Player:</b>
+				<ul>
+					<li>In this game mode, players compete against each other to be the 
+					first to retrieve the gold and return it to the Exit Door or defeat 
+					eachother in ranged combat.</li>
+					
+					<li>There is a "Fog of War" present on the map, and each Player can only 
+					see the tiles/rooms they have previously visited.</li>
+					
+					<li>Players my use arrows to kill other players.</li>
+				</ul>
+			</li>
+			
+			<li>
+			<b>Collaborative/Co-Op:</b>
+				<ul>
+					<li>In this game mode, players work together to retrieve the gold and 
+					return it to the Exit Door. If one Player completes the goal, the entire 
+					Team wins. If all players lose all of their lives, the Team loses.</li>
+					
+					<li>The "Fog of War" is slightly different in this mode. All revealed 
+					tiles revealed by any player, anywhere on the map, are made visible 
+					to <i>all</i> other players on the Team.</li>
+				</ul>
+			</li>
+		</ul>
+		
+		</p>
+		
+		</div>
+		
+		<!-- Difficulty Levels -->
+		<div><img class="difficulty_levels" src="/static/interface_elements/help/difficulty_levels.png"></div>
+		<div class="section"><br>
+		
+		<h2>There are three Difficulty Levels to choose from:</h2>
+		<p>
+		<ul>
+			<li><b>Wuss:</b> Easy Mode.
+				<ul>
+					<li>In this difficulty, "what you see is what you get."</li>
+					
+					<li>Wumpuses do not move</li>
+					
+					<li>positive Random events will occur occasionally, including 
+					random drops of arrows and potions</li>
+				</ul>
+			</li>
+			
+			<li><b>Explorer:</b> Medium Mode.
+				<ul>
+					<li>The Wumpuses will move occasionally.</li>
+					
+					<li>Random Events will happen occasionally (both beneficial and 
+					detrimental)</li>
+				</ul>
+			</li>
+			
+			<li><b>Vlad the Impaler (Vlad Tepes):</b> TryHard Mode.
+				<ul>
+					<li>The Wumpuses will more often.</li>
+					
+					<li>Random Events will happen more often (both beneficial and 
+					detrimental, but weighted more towards the negative side.)</li>
+				</ul>
+			</li>
+		</ul>
+		</p>
+		
+		</div>
+		
+		<!-- Classes & Characer Selection -->
+		<div><img class="classes" src="/static/interface_elements/help/classes.png"></div>
+		<div class="section"><br>
+		
+		<h2>There are four Character Classes to choose from:</h2>
+		<p>
+		Character selection occurs after joining or hosting a game. Additionally, <u>the game will 
+		not begin until both players have selected a class.</u> <br>
+		
+		<ul>
+			<li>
+			<b>Scout:</b>
+				<ul>
+					<li>This character can reveal any tile on the map.</li>
+					
+					<li>The Scout character will start with 5 usages of thier ability, 
+					which can be actived by clicking on "scout" under "abilities" and 
+					then selecting a map tile to reveal. These may be replenished by 
+					finding ability potions on the map and picking them up.</li>
+				</ul>
+			</li>
+			
+			<li>
+			<b>Hunter:</b>
+				<ul>
+					<li>The Hunter will get one extra Arrow at the beginning of the match. Go nuts Elmer Fudd.</li>
+				</ul>
+			</li>
+			
+			<li>
+			<b>Prospector:</b>
+				<ul>
+					<li>The Prospector can sense the gold from one tile away. Capitalism.</li>
+				</ul>
+			</li>
+			
+			<li>
+			<b>Survivor:</b>
+				<ul>
+					<li>The Survivor will get one extra Life at the beginning of the match.</li>
+				</ul>
+			</li>
+		</ul>
+		
+		</p>
+		
+		</div>
+		
+		<!-- About --> <hr>
+		<footer>
+		<i><u class="about">About:</u></i><br>
+		
+		<i>Lair Crushers 2: The Wumpus Strikes Back</i><br>
+		Copyright &copy; 2016, Team Sleepless<br>
+		<br>
+		Team sleepless motto: <i>"'Shitty' is the aesthetic of our game"</i>
+		<br>
+		<div class ="footer">Aaron Ayrault - <a onclick="boopFunction()"><u>"Boop"</u></a><br> 
+		Andrew Kirfman - "Sleep is overrated, coffee is cheap"<br> 
+		Jackie Chen - <a href= https://www.youtube.com/watch?v=bZe5J8SVCYQ>"The Missile knows here it is at all times"</a><br> 
+		Jason Do - "Freaking white people..."</div>
+
+		<script>
+		function boopFunction() {
+		    var audio = new Audio("/static/interface_elements/audio/notification_sound.mp3");
+		    audio.play();
+		}
+		</script>
+		</footer>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+/* ------------------------------------------------------------------------- */
+/* Lair Crushers 2: The Wumpus Strikes Back                                  */
+/* Developers:                                                               */
+/*     - Aaron Ayrault                                                       */
+/*     - Andrew Kirfman                                                      */
+/*     - Cheng Chen                                                          */
+/*     - Cuong Do                                                            */
+/*                                                                           */
+/* File: ./static/css/character_selection.css                                */
+/* ------------------------------------------------------------------------- */
+
+
+html {
+    background: url("/static/interface_elements/universal/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+* {
+    border: none;
+    outline: none;
+    position: fixed;
+}
+
+.character_title {
+	width: 60%;
+	height: 10%;
+	top: 2%;
+	left: 20%;
+}
+
+.back_button {
+    background: url("/static/interface_elements/character_selection/back.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.back_button:hover {
+    background: url("/static/interface_elements/character_selection/back_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 5%;
+}
+
+.start_button {
+    background: url("/static/interface_elements/character_selection/start.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 82.5%;
+}
+
+.start_button:hover {
+    background: url("/static/interface_elements/character_selection/start_hover.png") no-repeat;
+    background-size: 100%;
+    width: 12.5%;
+    height: 12%;
+    top: 80%;
+    left: 82.5%;
+}
+
+.survivor_button {
+    background: url("/static/interface_elements/character_selection/survivor.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 50%;
+}
+
+.survivor_button:hover {
+    background: url("/static/interface_elements/character_selection/survivor_hover.png") no-repeat;
+    background-size: 100%;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 50%;
+}
+
+.survivor_button:focus {
+    background: url("/static/interface_elements/character_selection/survivor_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 50%;
+}
+
+.scout_button {
+    background: url("/static/interface_elements/character_selection/scout.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 5%;
+}
+
+.scout_button:hover {
+    background: url("/static/interface_elements/character_selection/scout_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 5%;
+}
+
+.scout_button:focus {
+    background: url("/static/interface_elements/character_selection/scout_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 5%;
+}
+
+.prospector_button {
+    background: url("/static/interface_elements/character_selection/prospector.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 5%;
+}
+
+.prospector_button:hover {
+    background: url("/static/interface_elements/character_selection/prospector_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 5%;
+}
+
+.prospector_button:focus {
+    background: url("/static/interface_elements/character_selection/prospector_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 49%;
+    left: 5%;
+}
+
+.hunter_button {
+    background: url("/static/interface_elements/character_selection/hunter.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 50%;
+}
+
+.hunter_button:hover {
+    background: url("/static/interface_elements/character_selection/hunter_hover.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 50%;
+}
+
+.hunter_button:focus {
+    background: url("/static/interface_elements/character_selection/hunter_active.png") no-repeat;
+    background-size: 100%;
+    cursor: pointer;
+    width: 42.3%;
+    height: 18%;
+    top: 17%;
+    left: 50%;
+}

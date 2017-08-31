@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="/static/favicon.ico">
+    	<link rel="stylesheet" type="text/css" href="/static/css/join_game.css">
+        <body>
+            <img class="join_title" src="/static/interface_elements/join_a_game/join_a_game_button.png">
+            <img class="join_main" src="/static/interface_elements/join_a_game/join_a_game_main_screen.png">
+
+    	    <button class="join_button" onclick="if(game_name != '') { ws.send('Join:' + player_name + ':' + game_name); }"></button>
+    	    <button class="back_button" onclick="ws.send('CleanUp:' + player_name);"></button>
+    	</body>
+    	<script type="text/javascript" src="static/js/universal.js"></script>
+    	<script type="text/javascript" src="static/js/pages/join.js"></script>
+    </head>
+</html>
